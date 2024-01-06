@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Roboto+Condensed:wght@500&family=Titillium+Web:wght@200&display=swap');
+body{
+    background-color: rgb(169, 171, 184);
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    margin:20px;
+}
+.info>*{
+    margin: 1px;
+    font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+clear:both;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    gap: 100px;
+   
+
+}
+.info{
+    display:flex;
+    flex-direction: column;
+}
